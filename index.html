@@ -134,20 +134,32 @@
     </div>
 
     <div class="otp-verify">
-        <h1>Your Otp number: <span id="result"></span></h1>
+        <h1>Your Otp number: <span id="result" ></span></h1>
         <button class="btn btn-danger" id="btn" onclick="myFunction()"> otp generate </button>
     </div>
 
-    <div class="otp-valid">
+    <div class="otp-valid" id="otpvalid">
         <form action="#">
             <label for="otp">Enter your otp</label><br>
-        <input type="text" id="otp" placeholder="Enter your otp" max-width="6" required><br>
+        <input type="text" id="otp" placeholder="Enter your otp"  required><br>
         <button class="btn btn-primary" id="btn1" onclick="result()">Verify</button>
         <p id="result1"></p>
         <p id="result2">mahanvishnu</p>
         </form>
         
     </div>
+
+    <div>
+  <span id="timer">
+    <span id="time">30</span>Seconds      
+  </span>
+</div>
+
+<div class="times">
+    <span id="time1">
+        <span id="time2">0</span>Seconds      
+    </span>
+</div>
 </body>
 <!--Bootstrap js added-->
 
