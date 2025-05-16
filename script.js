@@ -1,6 +1,6 @@
 // This is a simple OTP generator and verification script
 // It generates a 6-digit OTP and verifies it against user input
-    let otp = "123456";
+    let otp = "";
 function myFunction(){
     for (let i = 0; i<6; i++)
     {
